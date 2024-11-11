@@ -6,4 +6,10 @@ The purpose of this repo is to be able to easily copy text from local system to 
 
 The limitation is the server has to be up and running and key-less access for SSH is granted
 
+## Usage
+1. Download the script
+2. Change the mode using: `chmod +x copier.sh`
+3. Run the script: `./copier.sh`
+
+
 Cheers
