@@ -13,9 +13,6 @@ if [ $numberOfDevices -ne 1 ]; then
 	exit 1
 fi
 
-exit 1; 
-
-
 availableStorage=$(adb shell df /data | awk  'NR==2 {print $4}')
 
 
